@@ -1,22 +1,32 @@
 # x220
 
+<div align="center">[](/imgs/ThinkPadX220.png)</div>
+
 ## About
 
 This project documents discoveries, settings, tweaks, etc for running Linux on the Lenovo ThinkPad x220. My specific versions specs are:
 
 * Lenovo Thinkpad x220 (4291-DE9)
-* Intel Core i5 2nd Gen. 2.60GHz
-* 8GB DDR3 Dual Channel RAM
+* Intel Core i5 2nd Generation (2.60GHz)
+* 2 x 4GB DDR3 Dual Channel RAM
 * Integrated/On-Board Graphics (Intel 3000?)
 * 12.5" HD+ Premium IPS display
-* 320GB 7200 RPM harddrive
+* 320GB 7200 RPM HDD
 * 720p HD WebCamera
+* Wireless (Intel 6205?)
 * FingerPrint Reader
 * Bluetooth
+* 6 cell battery
 
 ## Settings
 
 ### GRUB
+
+* 
+
+```
+GRUB_CMDLINE_LINUX=&quot;quiet rhgb threadirqs pcie_aspm=force i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_downclock=1 iwlagn.power_save=1 iwlagn.power_level=5
+```
 
 ### Power
 
@@ -31,6 +41,7 @@ This project documents discoveries, settings, tweaks, etc for running Linux on t
 
 ## License
 
+```
 The MIT License (MIT)
 
 Copyright (c) 2016 philcryer
@@ -52,5 +63,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
 
 ### Thanks
