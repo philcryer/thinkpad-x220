@@ -1,6 +1,6 @@
 # x220
 
-<div align="center">[](/imgs/ThinkPadX220.png)</div>
+<div align="center"><img src="/imgs/ThinkPadX220.png" alt="ThinkPadX220" border="0"></div>
 
 ## About
 
@@ -22,10 +22,10 @@ This project documents discoveries, settings, tweaks, etc for running Linux on t
 
 ### GRUB
 
-* 
+* GRUB config from [troshlyak](https://troshlyak.wordpress.com/2011/11/18/thinkpad-x220-the-almost-perfect-setup-fedora-16/)
 
 ```
-GRUB_CMDLINE_LINUX=&quot;quiet rhgb threadirqs pcie_aspm=force i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_downclock=1 iwlagn.power_save=1 iwlagn.power_level=5
+GRUB_CMDLINE_LINUX="quiet rhgb threadirqs pcie_aspm=force i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_downclock=1 iwlagn.power_save=1 iwlagn.power_level=5"
 ```
 
 ### Power

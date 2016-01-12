@@ -37,3 +37,4 @@ GRUB_CMDLINE_LINUX=&quot;quiet rhgb threadirqs pcie_aspm=force i915.i915_enable_
 
 <p>And that gives me usually consumption around 10W with WiFi ON. Regarding the temperature I&#8217;ve never worried about it, but it seems that I have similar values &#8211; 45-50C, which I think is OK.</p>
 
+https://troshlyak.wordpress.com/2011/11/18/thinkpad-x220-the-almost-perfect-setup-fedora-16/
