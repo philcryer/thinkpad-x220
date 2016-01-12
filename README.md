@@ -30,12 +30,35 @@ GRUB_CMDLINE_LINUX="quiet rhgb threadirqs pcie_aspm=force i915.i915_enable_rc6=1
 
 ### Power
 
+* [Energy Management in Linux](http://itgen.blogspot.com/2009/03/energy-management-in-linux.html) 
+* [Power tweaks](https://www.phoronix.com/scan.php?page=article&item=intel_i915_power&num=1)
+
 ### Xorg
+
+* [ThinkPad tweak](https://gist.github.com/Koronen/f95ff48d26f6d0c26023)
+
+```
+# /usr/share/X11/xorg.conf.d/20-thinkpad.conf
+Section "InputClass"
+    Identifier "Trackpoint Wheel Emulation"
+    MatchProduct       "TPPS/2 IBM TrackPoint|DualPoint Stick|Synaptics Inc. Composite TouchPad / TrackPoint|ThinkPad USB Keyboard with TrackPoint|ThinkPad Compact USB Keyboard with TrackPoint|USB Trackpoint pointing device"
+    MatchDevicePath    "/dev/input/event*"
+    Option             "EmulateWheel"          "true"
+    Option             "EmulateWheelButton"    "2"
+    Option             "Emulate3Buttons"       "false"
+    Option             "XAxisMapping"          "6 7"
+    Option             "YAxisMapping"          "4 5"
+EndSection
+```
 
 ## Resources
 
 * [ThinkWiki](www.thinkwiki.org/wiki/Category:X220) page for the x220
+* [ThinkWiki](http://www.thinkwiki.org/wiki/Installing_Gentoo_on_a_ThinkPad_X220) installing Gentoo on a x220 (looks like tons of tips)
 * [Debian Wiki](https://wiki.debian.org/InstallingDebianOn/Thinkpad/X220/squeeze) page on installing Debian GNU/Linux (sqeeze) on x220
+* [FreeBSD Wiki](https://forums.freebsd.org/threads/best-laptop-for-freebsd.50847/#post-284582) notes about working wifi, suspend/resume, etc on FreeBSD
+* [j4/x220](https://github.com/j4/x220) an amazing collection of configs, notes on getting the x220 running OpenBSD, NetBSD, even NixOS!
+* [Koronen](https://gist.github.com/Koronen/f95ff48d26f6d0c26023) more tweaks and gists
 * [eBay](http://www.ebay.com/sch/i.html?x220+%2Bips+-tablet.TRS1&_nkw=x220+%2Bips+-tablet&_sacat=0) search results page for `x220 +ips -tablet`
 
 
