@@ -2,6 +2,8 @@
 
 <div align="center"><img src="/imgs/thinkpad-x220.png" alt="ThinkPadX220" border="0"></div>
 
+>"Successor to the X60-series, the ThinkPad X200 laptop leverages the new technology from the X300, including the options of a solid-state drive (SSD), an optional integrated camera, 12.1" widescreen display, optional 3G WWAN, a new 9-cell battery for extended running time up to 9.8 hours, weight as low as 2.95 lb (1.34 kg), and CPU up to 2.66 GHz Intel Core 2 Duo. The X200s is a newer model of the X200 which is lighter and thinner, and has the option of a WXGA+ screen with LED Backlighting for increased battery performance. The X200 series included Tablet PC models, designated by the usage of the "t" suffix." (source [Wikipedia](https://en.wikipedia.org/wiki/ThinkPad#ThinkPad_X200.2FX200s.2C_X201.2FX201s.2C_X220.2C_X230.2C_X240.2C_X250)
+
 ## About
 
 This project documents discoveries, settings, tweaks, etc for running Linux, and other open source operating systems, on the Lenovo ThinkPad x220. My device specs are:
@@ -30,6 +32,13 @@ This project documents discoveries, settings, tweaks, etc for running Linux, and
     * 1 Half (WLAN)
     * 1 Express Card 54mm.
     * 1 54-mm ExpressCard slot or 3-in-1 Media Card Reader slot (MMC, Memory Stick, Mem Stick Pro, SD, SDHC)
+
+## Operating systems
+
+* [Linux](linux.md)
+* [OpenBSD](openbsd.md)
+* [FreeBSD](freebsd.md)
+* [NixOS](nixos.md)
 
 ## Settings
 
