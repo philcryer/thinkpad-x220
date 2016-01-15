@@ -1,10 +1,10 @@
-# x220
+# ThinkPad x220
 
-<div align="center"><img src="/imgs/ThinkPadX220.png" alt="ThinkPadX220" border="0"></div>
+<div align="center"><img src="/imgs/thinkpad-x220.png" alt="ThinkPadX220" border="0"></div>
 
 ## About
 
-This project documents discoveries, settings, tweaks, etc for running Linux on the Lenovo ThinkPad x220. My specific versions specs are:
+This project documents discoveries, settings, tweaks, etc for running Linux, and other open source operating systems, on the Lenovo ThinkPad x220. My device specs are:
 
 * Lenovo Thinkpad x220 (4291-DE9)
 * Intel Core i5 2nd Generation (2.60GHz)
