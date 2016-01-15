@@ -8,15 +8,28 @@ This project documents discoveries, settings, tweaks, etc for running Linux, and
 
 * Lenovo Thinkpad x220 (4291-DE9)
 * Intel Core i5 2nd Generation (2.60GHz)
-* 2 x 4GB DDR3 Dual Channel RAM
-* Integrated/On-Board Graphics (Intel 3000?)
+* 2 x 4GB PC3-8500 Non-Parity (NP) Double Data Rate Two (DDR3) SO-DIMM
+* Intel HD Graphics 3000 Integrated/On-Board Graphics
 * 12.5" HD+ Premium IPS display
 * 320GB 7200 RPM HDD
+* Intel Centrino Advanced-N 6205 AGN Wi-Fi adapter 
 * 720p HD WebCamera
-* Wireless (Intel 6205?)
+* 6-CELL High-Capacity Lenovo Li-ion Battery
+* 3 USB (2.0) Ports, one powered
+* Wired networking 1x 10/100/1000
 * FingerPrint Reader
 * Bluetooth
-* 6 cell battery
+* Other Ports
+    * Docking - Port Replicator
+    * VGA out
+    * Display Port
+    * Ethernet (RJ45)
+    * Audio Combo - Headphone/Mic
+    * 3 in 1 SD card reader. SDXC Support
+    * 1 Full (WWAN or m-SATA)
+    * 1 Half (WLAN)
+    * 1 Express Card 54mm.
+    * 1 54-mm ExpressCard slot or 3-in-1 Media Card Reader slot (MMC, Memory Stick, Mem Stick Pro, SD, SDHC)
 
 ## Settings
 
