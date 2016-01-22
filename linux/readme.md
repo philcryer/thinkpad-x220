@@ -120,11 +120,23 @@ It doesn't have an installer yet, so I just throw it into `~/bin`, which is in m
 cp Telegram/* ~/bin/
 ```
 
+### .dotfiles
+
+I have a project called [basejump](https://github.com/philcryer/basejump) that I run which pulls my dotfiles from a repo called [dotty](https://github.com/philcryer/dotty) and installs it. Read the disclaimers, but since I trust myself, I install the deps and then just have it auto setup
+
+As root, install the deps
+
+```
+apt-get install git rsync vim-nox bash zsh
+```
+
+Then as the my normal user
+
+```
+curl -s -L http://bit.ly/1Z2ngJi -o base; bash base -f
+```
+
 ## TODO
-
-### .dotfile
-
-* https://github.com/philcryer/basejump
 
 ### Iceweasel // firefox extentions
 
