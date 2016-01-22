@@ -37,10 +37,10 @@ This project documents discoveries, settings, tweaks, etc for running Linux, and
 
 These are the operating systems I'm going to target, for now, this list may change going forward.
 
-* [Linux](linux.md)
-* [OpenBSD](openbsd.md)
-* [FreeBSD](freebsd.md)
-* [NixOS](nixos.md)
+* [Linux](linux/readme.md)
+* [OpenBSD](openbsd/readme.md)
+* [FreeBSD](freebsd/readme.md)
+* [NixOS](nixos/readme.md)
 
 
 ## Resources
