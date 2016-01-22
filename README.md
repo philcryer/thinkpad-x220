@@ -35,43 +35,13 @@ This project documents discoveries, settings, tweaks, etc for running Linux, and
 
 ## Operating systems
 
+These are the operating systems I'm going to target, for now, this list may change going forward.
+
 * [Linux](linux.md)
 * [OpenBSD](openbsd.md)
 * [FreeBSD](freebsd.md)
 * [NixOS](nixos.md)
 
-## Settings
-
-### GRUB
-
-* GRUB config from [troshlyak](https://troshlyak.wordpress.com/2011/11/18/thinkpad-x220-the-almost-perfect-setup-fedora-16/)
-
-```
-GRUB_CMDLINE_LINUX="quiet rhgb threadirqs pcie_aspm=force i915.i915_enable_rc6=1 i915.i915_enable_fbc=1 i915.lvds_downclock=1 iwlagn.power_save=1 iwlagn.power_level=5"
-```
-
-### Power
-
-* [Energy Management in Linux](http://itgen.blogspot.com/2009/03/energy-management-in-linux.html) 
-* [Power tweaks](https://www.phoronix.com/scan.php?page=article&item=intel_i915_power&num=1)
-
-### Xorg
-
-* [ThinkPad tweak](https://gist.github.com/Koronen/f95ff48d26f6d0c26023)
-
-```
-# /usr/share/X11/xorg.conf.d/20-thinkpad.conf
-Section "InputClass"
-    Identifier "Trackpoint Wheel Emulation"
-    MatchProduct       "TPPS/2 IBM TrackPoint|DualPoint Stick|Synaptics Inc. Composite TouchPad / TrackPoint|ThinkPad USB Keyboard with TrackPoint|ThinkPad Compact USB Keyboard with TrackPoint|USB Trackpoint pointing device"
-    MatchDevicePath    "/dev/input/event*"
-    Option             "EmulateWheel"          "true"
-    Option             "EmulateWheelButton"    "2"
-    Option             "Emulate3Buttons"       "false"
-    Option             "XAxisMapping"          "6 7"
-    Option             "YAxisMapping"          "4 5"
-EndSection
-```
 
 ## Resources
 
