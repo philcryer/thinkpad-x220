@@ -105,6 +105,21 @@ apt-get install gvfs-bin apt-transport-https libxss1
 dpkg -i slack*.deb
 ```
 
+### Telegram
+
+Not everyone uses Slack, so I rock Telegram too, they have a nice [linux client](https://desktop.telegram.org) so let's get that and installed
+
+```
+xz -d tsetup.0.9.18.tar.xz 
+tar -xf tsetup.0.9.18.tar 
+``` 
+
+It doesn't have an installer yet, so I just throw it into `~/bin`, which is in my $PATH and the kupfer catalog
+
+```
+cp Telegram/* ~/bin/
+```
+
 ## TODO
 
 ### .dotfile
