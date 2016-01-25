@@ -127,7 +127,7 @@ I have a project called [basejump](https://github.com/philcryer/basejump) that I
 As root, install the deps
 
 ```
-apt-get install git rsync vim-nox bash zsh
+apt-get install curl git rsync vim-nox bash zsh
 ```
 
 Then as the my normal user
