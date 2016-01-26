@@ -136,6 +136,18 @@ Then as the my normal user
 curl -s -L http://bit.ly/1Z2ngJi -o base; bash base -f
 ```
 
+### Citrix reciever
+
+I installed the Citrix reciever in Iceweasel (aka firefox) for my work so I wouldn't have to mess with the `75 pound portable space heater that is my work laptop`, but if failed to connect with the error:
+
+> SSL error Contact your help desk with the following information: You have not chosen to trust “AddTrust External CA Root”, the issuer of the server’s security certificate (SSL error 61)
+
+Found some notes online, but details and a fix [here](https://newspaint.wordpress.com/2015/10/05/linux-citrix-receiver-ssl-error-addtrust-external-ca-root/). Basically you just need to download the [Comando cert](https://support.comodo.com/index.php?/Default/Knowledgebase/Article/View/917/91/) and copy it in place:
+
+```
+cp addtrustexternalcaroot.crt /opt/Citrix/ICAClient/keystore/cacerts/
+```
+
 ## TODO
 
 ### Iceweasel // firefox extentions
@@ -169,3 +181,4 @@ Section "InputClass"
     Option             "YAxisMapping"          "4 5"
 EndSection
 ```
+
