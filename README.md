@@ -37,10 +37,10 @@ This project documents discoveries, settings, tweaks, etc for running Linux, and
 
 These are the operating systems I'm going to target, for now, this list may change going forward.
 
-* [Linux](linux.md)
-* [OpenBSD](openbsd.md)
-* [FreeBSD](freebsd.md)
-* [NixOS](nixos.md)
+* [Linux](linux/readme.md)
+* [OpenBSD](openbsd/readme.md)
+* [FreeBSD](freebsd/readme.md)
+* [NixOS](nixos/readme.md)
 
 
 ## Resources
@@ -52,7 +52,7 @@ These are the operating systems I'm going to target, for now, this list may chan
 * [j4/x220](https://github.com/j4/x220) an amazing collection of configs, notes on getting the x220 running OpenBSD, NetBSD, even NixOS!
 * [Koronen](https://gist.github.com/Koronen/f95ff48d26f6d0c26023) more tweaks and gists
 * [eBay](http://www.ebay.com/sch/i.html?x220+%2Bips+-tablet.TRS1&_nkw=x220+%2Bips+-tablet&_sacat=0) search results page for `x220 +ips -tablet`
-
+* [Sears x220 page](http://www.sears.com/search=ThinkPad%20X220%20Laptop) parts and refurbished x220 laptops at Sears (?)
 
 ## License
 
