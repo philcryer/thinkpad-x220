@@ -148,6 +148,14 @@ Found some notes online, but details and a fix [here](https://newspaint.wordpres
 cp addtrustexternalcaroot.crt /opt/Citrix/ICAClient/keystore/cacerts/
 ```
 
+### Emoji
+
+Ya, but default iceweasel (firefox unbranded) does not display emoji. Sounds lame, but when they're not there you miss some of what is being 'said'. Fix that with:
+
+```
+apt-get install ttf-ancient-fonts
+```
+
 ## TODO
 
 ### Iceweasel // firefox extentions
